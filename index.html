@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/07fd8adddf.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <title>ATR Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">ATR </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"></li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              id="contact"
+              data-toggle="modal"
+              data-target="#contactModal"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Info</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/alex-rodondi-023704198/"
+                  class="nav-link"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/atrodondi" class="nav-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://mail.google.com/mail/
+                    "
+                  class="nav-link"
+                  >Email me</a
+                >
+              </li>
+              <li></li>
+              <li>
+                <a href="assets/images/resumePDF.pdf" class="nav-link"
+                  >Resume.pdf</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <!-- "cover page" -->
+      <h1>Hello. My name is Alex.</h1>
+      <h4>I am a web developer and I like to solve problems.</h4>
+    </header>
+
+    <main role="main" class="container">
+      <!-- about me -->
+      <h2 id="about">A bit about me.</h2>
+      <p>
+        When I was a kid, it was hard to keep me from going outside to explore.
+        The outdoors taught me so much about all the different things around me.
+        My imagination took me places I had never been because I always felt
+        that there was more to experience, more to learn, more to discover. As I
+        grew older and traveled to many places around the world, the new ideas
+        and ways of thinking bled into my every day life and I quickly learned
+        how important it is for people to learn from one another and work
+        together. And that is what I am looking for: a company or people to work
+        with that are creatively charged and strive to bring out the best in
+        themselves as they work together for a brigther tomorrow. I want to use
+        what I know and continue to learn to bring about positive change in
+        people's lives. There is always a solution, and I like to be a part of
+        finding it.
+      </p>
+      <div id="pictureContainer">
+        <div id="picture"></div>
+      </div>
+
+      <!-- projects -->
+      <h2 id="projects" class="mt-5">Projects</h2>
+    </main>
+    <div class="container">
+      <div class="row">
+        <!-- project 1 -->
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body proj1">
+              <h5 class="card-title">On This Day!</h5>
+              <p class="card-text"></p>
+              <a
+                href="https://github.com/atrodondi/On-This-day"
+                class="btn info"
+                >Code</a
+              >
+              <a
+                href="https://atrodondi.github.io/On-This-day/"
+                class="btn info"
+                >Site</a
+              >
+              <a
+                href="#projects"
+                class="info btn"
+                id="thisdaytoggle"
+                class="btn"
+                >Info</a
+              >
+              <!-- on this day  modal -->
+              <div
+                class="modal fade"
+                id="thisdayModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">
+                        On This Day!
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        A simple app that gathers information about a specific
+                        day the user enters. I wrote an object oriented
+                        "database" to provide a Numerology and Astrology aspect
+                        to the app since we could not find a free api.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- project 2 -->
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body proj2">
+              <h5 class="card-title">FRIDFOOD</h5>
+              <p class="card-text"></p>
+              <a href="https://github.com/atrodondi/FRIDFOOD" class="btn info"
+                >Code</a
+              >
+              <a
+                href="https://secret-savannah-64609.herokuapp.com/"
+                class="btn info"
+                >Site</a
+              >
+              <a class="btn info" href="#projects" id="fridFoodtoggle">Info</a>
+
+              <!-- FRIDFOOD QUICK INFO MODAL -->
+              <div
+                class="modal fade"
+                id="fridFoodModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">
+                        FRID FOOD
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        An MVC style app that allows a user to create an account
+                        and store items they have at home in their "fridge" that
+                        they can then use to search for applicable recipes using
+                        the objects they have at hand. I handled backend
+                        database manipulation and API calls.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- project 3 -->
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body proj3">
+              <h5 class="card-title">Webscraping</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn info">Code</a>
+              <a href="#projects" id="footballToggle" class="btn info">Info</a>
+
+              <!-- football info modal-->
+              <div
+                class="modal fade"
+                id="footballModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">
+                        Football Data Webscraping
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Fantasy Football is a hobby of mine and I spend
+                        countless hours gathering data so I can satisfy my need
+                        to add "reason" to the madness that is being a fantasy
+                        football enthusiast. Why not make it faster? A simple
+                        project to scrape data from the web so I can manipulate
+                        it in ways that satisfy my football superstitions.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of row -->
+    </div>
+    <!--end of container-->
+    <!-- footer -->
+    <footer class="text-muted text-center bg-dark py-3">
+      <div class="container">
+        <p>
+          Copyright &copy; 2020 by ATR.
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap links -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

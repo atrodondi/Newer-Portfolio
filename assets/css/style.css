@@ -1,0 +1,62 @@
+header {
+  /* background-image: url("../images/tree.jpg"); */
+  background-color: #00061a;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+p,
+h2 {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 3em;
+}
+h1,
+h4 {
+  color: #ffffe6;
+}
+
+#picture {
+  background-color: rgb(189, 127, 34);
+  width: 600px;
+  height: 600px;
+}
+
+#pictureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.proj1 {
+  background-image: url("../images/sun.jpg");
+  background-size: cover;
+}
+.proj2 {
+  background-image: url("../images/fridfood.jpg");
+  background-size: cover;
+}
+
+.proj3 {
+  background-image: url("../images/poly.jpg");
+  background-size: cover;
+}
+
+.card {
+  height: 300px;
+  color: #50394c;
+}
+
+.info {
+  color: #50394c;
+}
+
+.info:hover {
+  color: red;
+}
