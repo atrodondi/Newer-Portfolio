@@ -6,8 +6,8 @@ $("#fridFoodtoggle").on("click", function () {
   $("#fridFoodModal").modal("toggle");
 });
 
-$("#footballToggle").on("click", function () {
-  $("#footballModal").modal("toggle");
+$("#scraperToggle").on("click", function () {
+  $("#scraperModal").modal("toggle");
 });
 
 $("#thisdaytoggle").on("click", function () {
