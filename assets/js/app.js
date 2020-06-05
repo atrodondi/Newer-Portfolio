@@ -13,3 +13,7 @@ $("#scraperToggle").on("click", function () {
 $("#thisdaytoggle").on("click", function () {
   $("#thisdayModal").modal("toggle");
 });
+
+$("#apostletoggle").on("click", function () {
+  $("#apostleModal").modal("toggle");
+});

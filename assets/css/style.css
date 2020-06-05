@@ -48,6 +48,11 @@ h4 {
   background-size: cover;
 }
 
+.proj4 {
+  background-image: url("../images/philip.png");
+  background-size: cover;
+}
+
 .card {
   height: 300px;
   color: #50394c;
@@ -59,4 +64,8 @@ h4 {
 
 .info:hover {
   color: red;
+}
+
+.row {
+  margin: 30px;
 }
