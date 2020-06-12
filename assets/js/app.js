@@ -10,8 +10,8 @@ $("#scraperToggle").on("click", function () {
   $("#scraperModal").modal("toggle");
 });
 
-$("#thisdaytoggle").on("click", function () {
-  $("#thisdayModal").modal("toggle");
+$("#booktoggle").on("click", function () {
+  $("#bookModal").modal("toggle");
 });
 
 $("#apostletoggle").on("click", function () {
