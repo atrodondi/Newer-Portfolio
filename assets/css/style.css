@@ -54,7 +54,7 @@ h4 {
 }
 
 .proj5 {
-  background-image: url('"../images/resource.png"');
+  background-image: url("../images/resource.png");
   background-size: cover;
 }
 
