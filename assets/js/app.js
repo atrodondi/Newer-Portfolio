@@ -17,3 +17,7 @@ $("#booktoggle").on("click", function () {
 $("#apostletoggle").on("click", function () {
   $("#apostleModal").modal("toggle");
 });
+
+$("#resourcetoggle").on("click", function () {
+  $("#resourceModal").modal("toggle");
+});
